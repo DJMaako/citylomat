@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etusivu</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <a class="logo" href="index.html">CityLomat</a>
+        <nav class="navigation" aria-label="Päänavigaatio">
+          <a href="index.html" aria-current="page">Etusivu</a>
+          <a href="matkainfo.html">Matkainfo</a>
+          <a href="matkatoive.html">Matkatoive</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Matkakohteet</h1>
+          <p>
+            CityLomat tarjoaa sinulle kiinnostavia kaupunkilomia ympäri
+            Eurooppaa.
+          </p>
+          <a class="button-link" href="matkatoive.html"
+            >Käy tutustumassa kohteisiin matkainfossa</a
+          >
+        </div>
+        <img
+          class="hero-image"
+          src="images/esittelykuva.jpg"
+          alt="Prahan vanha kaupunki iltavalaistuksessa"
+          width="1000"
+          height="720"
+        />
+      </section>
+
+      <section class="locations" aria-label="Matkakohteet">
+        <div class="cards">
+          <article class="card big-card">
+            <img
+              class="card-image"
+              src="images/latvia-riga_100kb.webp"
+              alt="Riika"
+              width="900"
+              height="700"
+            />
+            <div class="card-text">
+              <h2 class="card-title">Riika, Latvia</h2>
+              <p>4 päivää · Alkaen 99 €</p>
+              <p>
+                Riika on täynnä historiaa, kaunista arkkitehtuuria ja viihtyisiä
+                kahviloita.
+              </p>
+              <a class="card-link" href="matkatoive.html"
+                >Tutustu matkatoiveisiin</a
+              >
+            </div>
+          </article>
+
+          <article class="card card-top">
+            <img
+              class="card-image"
+              src="images/czech-praha_100kb.webp"
+              alt="Praha"
+              width="800"
+              height="560"
+            />
+            <div class="card-text">
+              <h2 class="card-title">Praha, Tšekki</h2>
+              <p>3 päivää · Alkaen 70 €</p>
+            </div>
+          </article>
+
+          <article class="card card-bottom">
+            <img
+              class="card-image"
+              src="images/italy-milano_100kb.webp"
+              alt="Milanon tuomiokirkko"
+              width="800"
+              height="560"
+            />
+            <div class="card-text">
+              <h2 class="card-title">Milano, Italia</h2>
+              <p>5 päivää · Alkaen 120 €</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>CityLomat</p>
+        <p>
+          <a href="mailto:citylomat@esimerkki.com">citylomat@esimerkki.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
